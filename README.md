@@ -34,5 +34,3 @@ Copy `.env.local.example` to `.env.local`
 
 email: admin@gmail.com
 pass: 12345678
-
-
