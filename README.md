@@ -35,19 +35,4 @@ Copy `.env.local.example` to `.env.local`
 email: admin@gmail.com
 pass: 12345678
 
-## 5. Deploy on Vercel
 
-1. Push this project to a GitHub repo.
-2. Go to vercel.com, "Add New Project", import the repo.
-3. Under Environment Variables, add `NEXT_PUBLIC_SUPABASE_URL` and
-   `NEXT_PUBLIC_SUPABASE_ANON_KEY` with the same values as your `.env.local`.
-4. Deploy. Vercel gives you a live URL.
-
-## Submission checklist
-
-- [ ] Supabase schema and seed data applied
-- [ ] Admin account created in Supabase Auth
-- [ ] Environment variables set locally and on Vercel
-- [ ] All group members have committed at least once
-- [ ] GitHub repo link
-- [ ] Deployed site link
