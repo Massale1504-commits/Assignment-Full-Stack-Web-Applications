@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --color-marquee: #161311;
+  --color-cream: #f6f1e6;
+  --color-gold: #e8b84b;
+  --color-brick: #b23a2f;
+  --color-ink: #23201c;
+}
+
+@theme inline {
+  --color-marquee: var(--color-marquee);
+  --color-cream: var(--color-cream);
+  --color-gold: var(--color-gold);
+  --color-brick: var(--color-brick);
+  --color-ink: var(--color-ink);
+  --font-display: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --font-body: ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+}
